@@ -1,0 +1,45 @@
+-- create a table
+CREATE TABLE Bracket (
+  Sr_no INTEGER PRIMARY KEY,
+  SSO_ID INTEGER,
+  Employee_Name TEXT NOT NULL,
+  Laser Programming INTEGER,
+  Cutting INTEGER,
+  Vitek Inspection INTEGER,
+  Check_and_Ream INTEGER,
+  Drill INTEGER,
+  Machining INTEGER,
+  Bend_programming INTEGER,
+  Bending INTEGER,
+  Vibrodyne_deburr INTEGER,
+  Welding INTEGER,
+  Assembly INTEGER,
+  Marking INTEGER,
+  PPC INTEGER
+);
+insert into Bracket values (1,212481321,'OMKAR SHETE', 4, 4, 4, 4, 4, 0, 0, 0, 2, 0, 0, 0, 0);
+insert into Bracket values (2,212364786,'RAMHARI KAKDE', 4, 4, 4, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0);
+insert into Bracket values (3,212391576,'NILESH JADHAV', 4, 4, 4, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0);
+insert into Bracket values (4,212585911,'SHRIKANT BHAIRAMADGI', 4, 4, 4, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0);
+insert into Bracket values (5,212585915,'SURAJ BHOSALE', 2, 2, 4, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0);
+insert into Bracket values (6,212675677,'GOVIND GAWAS', 2, 2, 3, 4, 4, 2, 0, 0, 0, 0, 0, 0, 0);
+insert into Bracket values (7,212675675,'BALKRISHNA NAIK', 0, 0, 2, 4, 4, 2, 0, 0, 0, 0, 0, 0, 0);
+insert into Bracket values (8,212777130,'JAGADISH DUBE', 0, 0, 2, 4, 4, 0, 0, 0, 1, 0, 0, 0, 0);
+insert into Bracket values (9,223022378,'TRUPTI GAWAI', 0, 0, 0, 2, 2, 0, 0, 0, 0, 0, 0, 0, 0);
+insert into Bracket values (10,212584714,'SAGAR SARVANDE', 0, 0, 1, 0, 0, 0, 4, 4, 4, 0, 0, 0, 4);
+insert into Bracket values (11,212578863,'MAYUR KUMDALE', 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 0);
+insert into Bracket values (12,212679122,'TEJAS SHIBE', 0, 0, 0, 0, 0, 0, 4, 4, 4, 0, 0, 0, 2);
+insert into Bracket values (13,503233569,'PRALHAD MAHAJAN', 0, 0, 0, 4, 4, 0, 0, 0, 3, 0, 0, 0, 0);
+insert into Bracket values (14,212778432,'JAYESH MALI', 0, 0, 0, 0, 0, 0, 0, 1, 3, 0, 0, 0, 0);
+insert into Bracket values (15,212488244,'DARSHAN PARANGE', 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 1, 2, 4);
+insert into Bracket values (16,212546579,'AKASH KHIRALE', 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0);
+insert into Bracket values (17,212604149,'BALIRAM DHADE', 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0);
+insert into Bracket values (18,212481321,'SHIVAJI GAIKWAD', 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 2, 0);
+insert into Bracket values (19,212778378,'PRANAV CHAUDHARI', 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 0, 0);
+insert into Bracket values (20,212770942,'GAYATRI MALWANKAR', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0);
+insert into Bracket values (21,212675678,'KABEER UTHALE', 0, 0, 2, 2, 2, 0, 0, 0, 0, 0, 0, 0, 4);
+insert into Bracket values (22,212705407,'CHETAN DANDGAVHAL', 0, 0, 0, 0, 0, 0, 0, 1, 2, 0, 4, 0, 0);
+insert into Bracket values (23,212709900,'SANJAY MANTRI', 0, 0, 2, 0, 0, 0, 0, 1, 0, 0, 4, 0, 0);
+insert into Bracket values (24,212774839,'NAMDEV PATIL', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 0, 0);
+insert into Bracket values (25,223019296,'SUNITA BADE', 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 3, 0);
+select * from Bracket;
